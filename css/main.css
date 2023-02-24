@@ -1,0 +1,163 @@
+.showcase-div {
+    background: url("/images/gym.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-header-display-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-header {
+    padding: 0 0 0 30px;
+    width: 250px;
+    align-self: center;
+
+}
+
+.container-links {
+    align-self: center;
+    width: 40%;
+}
+
+.header-nav-bar ul li {
+    display: inline-block;
+
+}
+
+.header-nav-bar ul li a {
+    display: inline;
+    padding: 0 15px 0 10px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.header-nav-bar ul li a:hover {
+    font-family: arial;
+    color: lightcoral;
+    font-size: 15px;
+}
+
+.highlight, .header-nav-bar ul .current a {
+    color: lightcoral;
+}
+
+.showcase-section {
+    width: 100%;
+    height: 500px; 
+}
+
+.showcase-paragraph-1, .showcase-h2 {
+    text-align: center;
+
+}
+
+.showcase-paragraph-1 {
+    padding: 150px 0 40px 0;
+}
+
+.showcase-h2 {
+    padding-bottom: 0; 
+    font-size: 40px;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.showcase-bttn {
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: lightcoral;
+    border: 0px solid lightcoral;
+    margin: 80px 0 0 580px;
+    padding: 10px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.showcase-bttn:hover {
+    background: orangered;
+}
+
+.selection-opener {
+    width: 100%;
+    height: 200px;
+}
+
+.selection-image {
+     padding: 30px 0 0 600px;
+}
+
+.selection-heading {
+    padding: 50px 0 30px 0;
+    text-align: center;
+    color: #000;
+}
+
+.selection-paragraph {
+    margin: 0 30px 30px 250px;
+    text-align: center;
+    width: 70%;
+    color: #000;
+}
+
+.selection-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sc-box {
+    padding: 40px 30px;
+    width: 30%;
+}
+
+.sc-head, .sc-para, .sc-link {
+    color: black;
+}
+
+.sc-box a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.reason-container {
+    width: 100%;
+    height: 500px;
+    background: url("/images/weightcarrier.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.reason-container .rh2 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.reason-container-paragraph {
+    text-align: center;
+    font-size: 20px;
+    padding: 100px 0 0 400px;
+    width: 40%;
+}
+
+.bttn-2 {
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: lightcoral;
+    border: 0px solid lightcoral;
+    margin: 80px 0 0 580px;
+    padding: 10px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bttn-2:hover {
+    background: orangered;
+}
