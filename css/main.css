@@ -128,13 +128,23 @@
     width: 30%;
 }
 
-.sc-head, .sc-para, .sc-link {
+.sc-head {
+    text-align: center;
+}
+
+.sc-cont-img-div {
+    width: 25%;
+    margin: 0 auto;
+    
+}
+
+.sc-head, .sc-para {
     color: black;
 }
 
 .sc-box a {
-    color: blue;
-    text-decoration: underline;
+    color: orangered;
+    font-weight: bolder;
 }
 
 .reason-container {
@@ -231,7 +241,7 @@
     }
 }
 
-@media screen and (min-width: 660px) and (max-width: 1000px) {
+@media screen and (min-width: 550px) and (max-width: 1000px) {
     .container-links {
         display: none;
     }  
