@@ -216,6 +216,7 @@
     }
 
     .selection-container-2 {
+        display: none;
         height: 1100px;
     }
 
