@@ -5,3 +5,7 @@
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+body {
+    position: relative;
+}
